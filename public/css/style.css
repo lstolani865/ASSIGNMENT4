@@ -1,0 +1,494 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  /************Header**********/
+  .hed-menu {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.678);
+    box-shadow: 0px 0px 10px #000;
+    z-index: 100;
+}
+  .img-logo {
+    height: 80px;
+    margin-left: 170px;
+    float: left;
+    text-align: center;
+    padding: 0;
+}
+.img-logo:hover {
+  padding: 10px;
+  height: 90px;
+  margin-left: 170px;
+}
+.hed-menu>ul {
+  max-width: 500px;
+  display: inline-flex;
+  list-style: none;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 170px;
+}
+
+.hed-menu-links a {
+  text-align: right;
+  text-decoration: none;
+  margin: 0 20px;
+  color: #000;
+  font-size: 16px;
+  padding: 2px;
+  transition: 0.5s;
+}
+.hed-menu-links a:hover {
+  color: rgb(4, 238, 255);
+}
+
+/********FOOTER********/
+
+
+footer {
+  display: block;
+  position: relative;
+  background: rgba(0, 0, 0, 0.8);
+  height: 100px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.footer-links {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.678);
+  box-shadow: 0px 0px 10px #000;
+  z-index: 100;
+
+  
+}
+
+
+
+.footer-links li {
+  margin: 0 20px;
+}
+
+.footer-links li a {
+  color: white;
+  font-size: 26px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer-links li a:hover {
+  color: rgba(58, 4, 255, 0.856);
+}
+
+  /*****************HOME_FORM*****************/
+  .box-img {
+    max-height: 220px;
+    max-width: 98%;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.book-box {
+    position: relative;
+    top: 10vh;
+    left: 5%;
+    max-width: 400px;
+    height: 50%;
+    padding: 100px 50px;
+    background: url(/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-box {
+    position: relative;
+    margin: auto 10%;
+    max-height: 100%;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 255);
+    border-radius: 10px;
+    padding: 50px 10px;
+}
+
+
+
+.form-box h2 {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-weight: 100;
+}
+
+#book-form {
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    height: 200px;
+}
+
+#book-form label {
+    font-size: 20px;
+}
+
+#book-where {
+    width: 100%;
+    height: 40px;
+}
+
+.book-date {
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+}
+
+#select-box {
+    width: 300px;
+    height: auto;
+}
+
+#guests {
+    width: 80%;
+    height: 30px;
+}
+
+input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+}
+
+#book-search {
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    color: rgba(255, 255, 255, 255);
+    background: rgb(255, 21, 4);
+    border: none;
+    margin: 5px;
+    margin-right: 28px;
+    float: right;
+    font-size: 22px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+#book-where{
+  margin: 5px;
+    margin-right: 28px;
+    float: center;
+    font-size: 22px;
+    transition: 0.5s;
+    height: 40px;
+    width: 35000px;
+
+}
+
+#book-submit:hover {
+    color: #fff;
+    background: #000;
+}
+/****************HOME*******************/
+.promotional-box {
+  width: 100%;
+  height: 400px;
+  background: url(/images/promo.jpg);
+  background-size: cover;
+  background-position: center;
+  color:white;
+  font-size:40px;
+}
+.book-container {
+            max-width: 100%;
+            height: 100vh;
+            background: url(/images/background.jpg);
+            background-position: center;
+            background-size: cover;
+            left: 0px;
+            top: 0px;
+            margin: 0;
+            
+        }
+        .home-info-section {
+          background: url(/images/background.jpg);
+          background-size: cover;
+          height: 700px;
+          padding-top: 100px;
+      }
+      .info-section {
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+        max-height: 200px;
+        max-width: 950px;
+        margin: auto;
+        padding: 100px;
+      }
+
+      .info-video{
+        background-position: left;
+        background-repeat: no-repeat;
+        max-height: 200px;
+        max-width: 700px;
+        margin: auto;
+        padding: 100px;
+
+      }
+    
+    .info-section p {
+        font-size: 20px;
+        text-align: up;
+        color:rgba(255, 255, 255, 0.932);
+    }
+
+
+    /*************************ROOM*************/
+    
+    .rooms-container {
+      position: relative;
+      max-width: 1048px;
+      min-height: 1000px;
+      margin: auto;
+  }
+  
+  .rooms-container p {
+      font-size: 30px;
+  }
+  
+  .rooms-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: 30% 30% 30%;
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+      height: 610px;
+      line-height: 50%;
+      width: 100%;
+  }
+  
+  .room {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 10px;
+      width: 100%;
+      height: 320px;
+      text-align: center;
+      padding: 20px 0;
+      clear:both;
+      display:table;
+  }
+  
+  .room-img {
+      transition: 0.5s;
+      max-height: 220px;
+  }
+  
+  .room-img:hover {
+      transform: scale(1.2);
+  }
+  
+  .room-title,
+  .room-price {
+      height: 50px;
+      line-height: 50px;
+      font-size: 28px;
+      font-weight: 100;
+      text-align: left;
+      margin: 0 10px;
+      color: #000;
+      text-decoration: none;
+  }
+  
+  .room-links {
+      text-decoration: none;
+  }
+  
+  p {
+      margin: 30px 0;
+      font-size: 20px;
+      color: #fff;
+  }
+  
+  
+  .rooms-content {
+      position: relative;
+      z-index: -1;
+      width: 100%;
+      min-height: 100%;
+      background: url(/images/background.jpg);
+      background-size: cover;
+  }
+  @media only screen and (max-width: 600px) {
+    .rooms-container {
+        height: 1400px;
+    }
+    .rooms-grid {
+        grid-template-columns: 50% 50%;
+    }
+}
+.place{
+  text-align: center;
+
+}
+ /***************Registeration*****/
+#signIn{
+   width: 400px;
+   height: 20px;
+ }
+ #signIn-info{
+
+  width: 50%;
+   height: 20px;
+ }
+ 
+#signIn-container {
+  border:5px;
+ 
+ }
+
+
+#sign-form{
+  border:50px;
+}
+
+
+.signUpbtn{
+  cursor: pointer;
+  height: 30px;
+  width: 400px;
+  color: rgba(255, 255, 255, 255);
+  background: rgb(255, 21, 4);
+  
+}
+#signIn-info{
+  width:400px;
+
+}
+
+/*******************************logIn********************************/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: rgb(220, 24, 24);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.errors
+{
+    background-color: rgb(209, 97, 97);
+    color:white;
+    padding :8px 16px;
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  #signIn-container {
+      width: 100%;
+      height: 100%;
+  }
+  .signIn-box {
+    top: 10%;
+
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    max-width: 60%;
+    min-height: 400px;
+    margin: 0 20%;
+    padding-top: 40px;
+}
+#month {
+    width: 39%;
+}
+#day,
+#year {
+    width: 25%;
+}
+.hed-menu{
+   width:25%;
+}
+
+.hed-menu-links{
+  width:25%;
+}
+
+.rooms-grid{
+  width:25%;
+}
+.box-img{
+  width: 25%;
+}
+}
+
+@media(max-width:450px)
+{
+  #signIn-container {
+    width: 100%;
+    height: 100%;
+}
+.signIn-box {
+  top: 10%;
+
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  max-width: 60%;
+  min-height: 400px;
+  margin: 0 20%;
+  padding-top: 40px;
+}
+#month {
+  width: 39%;
+}
+#day,
+#year {
+  width: 25%;
+}
+.hed-menu{
+ width:25%;
+}
+
+.hed-menu-links{
+width:25%;
+}
+
+.rooms-grid{
+width:25%;
+}
+.box-img{
+width: 25%;
+}
+.room{
+  width:25%;
+
+}
+.room-img{
+  width:25%;
+
+}
+}
+
+

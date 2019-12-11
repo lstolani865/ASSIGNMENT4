@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>AirBNB</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  
+  
+   <header>
+    <nav class="hed-menu">
+       <a href=""><img src="/images/logo.jpg" class="img-logo" alt="AirBNB"></a>
+       <ul>
+         {{#if user}}
+         
+          <li class="hed-menu-links"><a href="/user/logout">Log out</a></li>
+          <li class="hed-menu-links"><a href="/room/add">ADD Room</a></li>
+          <li class="hed-menu-links"><a href="/room/list">View Rooms</a></li>
+            {{#if admin}}
+            
+               <li class="hed-menu-links"><a href="#">Admin Dashboard</a></li>
+    
+            {{else}}
+                <li class="hed-menu-links"><a href="#">USer Dashboard</a></li>
+            {{/if}}
+          {{else}}
+          <li class="hed-menu-links"><a href="/">Home</a></li>
+          <li class="hed-menu-links"><a href="/room/roomListing">room listing</a></li>
+
+          <li class="hed-menu-links"><a href="/user/logIn">log in</a></li>
+          <li class="hed-menu-links"><a href="/user/userRegistration">Sign up</a></li>
+         
+          {{/if}}
+         </ul>
+    </nav>
+   </header>
+   <section id="main">
+
+   {{{body}}}
+
+   </section>
+
+   <footer>
+      <nav class="hed-menu">
+       <ul>
+          <li class="hed-menu-links"><a href="https://twitter.com/airbnb">Twiter</a></li>
+          <li class="hed-menu-links"><a href="https://www.instagram.com/airbnb/">Instagram</a></li>
+          <li class="hed-menu-links"><a href="https://www.facebook.com/airbnb">Facebook</a></li>
+          <!--<li class="hed-menu-links"><a href="">Site Map</a></li>--->
+          <li class="hed-menu-links"><a href="/about">AboutUs</a></li>
+       </ul>
+       </nav>
+       
+      
+   </footer>
+</body>
+</html>

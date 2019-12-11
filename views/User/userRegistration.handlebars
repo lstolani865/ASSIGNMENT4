@@ -1,0 +1,127 @@
+<div id="signIn-container" class="hidden">
+      <div class="signIn-box">
+        {{#each message}}
+
+  <div class="errors">{{this}}
+    
+  </div>
+
+{{/each}}
+<h1>Sign up with <a href="https://www.facebook.com/airbnb">    Facebook     </a>   or     <a href="http://www.Google.com">     Google</a></h1>
+</div>
+<h3 class="or">-----------------------------or-------------------------------</h3>      
+<form  method="POST" action="/user/userRegistration" id="sign-form">
+
+    <input type="email" name="email" id="signIn" placeholder="Email address"><br><br>
+    <input type="text" name="firstName" id="signIn" placeholder="First name"><br><br>
+    <input type="text" name="lastName" id="signIn" placeholder="Last name"><br><br>
+    <input type="password" name="password" id="signIn" placeholder="Create a Password"><br><br>
+    <input type="password" name="confirm_password" id="signIn" placeholder="Confirm Password"><br><br> 
+<h3>Birthday</h3>
+  
+   <h4 id="signIn-info">To sign up,you need to be at least 18. Other people who use Airbnb won't see your birthday.</h4> 
+  
+  <select id="month"
+          name="month" placeholder="Mount" />
+    <option>Mount</option>      
+    <option>January</option>      
+    <option>February</option>      
+    <option>March</option>      
+    <option>April</option>      
+    <option>May</option>      
+    <option>June</option>      
+    <option>July</option>      
+    <option>August</option>      
+    <option>September</option>      
+    <option>October</option>      
+    <option>November</option>      
+    <option>December</option>      
+  </select> -
+  
+  <select id="day"
+          name="day" />
+    <option>Day</option>
+    <option>1</option>      
+    <option>2</option>      
+    <option>3</option>      
+    <option>4</option>      
+    <option>5</option>      
+    <option>6</option>      
+    <option>7</option>      
+    <option>8</option>      
+    <option>9</option>      
+    <option>10</option>      
+    <option>11</option>      
+    <option>12</option>      
+    <option>13</option>      
+    <option>14</option>      
+    <option>15</option>      
+    <option>16</option>      
+    <option>17</option>      
+    <option>18</option>      
+    <option>19</option>      
+    <option>20</option>      
+    <option>21</option>      
+    <option>22</option>      
+    <option>23</option>      
+    <option>24</option>      
+    <option>25</option>      
+    <option>26</option>      
+    <option>27</option>      
+    <option>28</option>      
+    <option>29</option>      
+    <option>30</option>      
+    <option>31</option>      
+  </select> 
+  
+  <select id="year"
+         name="year" />
+    <option>Year</option>
+    <option>2019</option>      
+    <option>2018</option>      
+    <option>2017</option>      
+    <option>2016</option>      
+    <option>2015</option>      
+    <option>2014</option>      
+    <option>2013</option>      
+    <option>2012</option>      
+    <option>2011</option>      
+    <option>2010</option> 
+    <option>2009</option>      
+    <option>2008</option>      
+    <option>2007</option>      
+    <option>2006</option>      
+    <option>2005</option>      
+    <option>2004</option>      
+    <option>2003</option>     
+  </select>
+  
+
+      
+  </select> <br><br><br>
+
+<h4 id="signIn-info">all info will be sent by email to the related user of this account!</h4><br>
+    <button type="submit" class="signUpbtn">Sign Up</button>
+    </div>
+    </form>
+    </div>
+    </div>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 

@@ -1,0 +1,55 @@
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<div class="book-container">
+        
+            <div class="form-box">
+                <h2>Book unique places to stay and things to do.</h2><br>
+
+        
+            <form id="book-form" action="/search" method="POST">
+                <label>Where:</label><br>
+                <select id="book-room" name="where" required>
+                    <option value="" disabled selected>Anywhere</option>
+                    <option value="Toronto">Toronto</option>
+                    <option value="Vaughan">Vaughan</option>
+                    <option value="Vancouver">Vancouver</option>
+                    <option value="Ottawa">Ottawa</option>
+                </select>
+                <br>
+                <br>
+                <label style="margin-left:40px;auto;float: left">Check in:</label>
+                <label style="margin-right:100px;float: right">Check out:</label><br>
+                <input name="checkIn" class="book-date" type="date" required>
+                <input name="checkOut" class="book-date" type="date" required>
+                <br><br>
+                <label for="guests">Guests:</label><br>
+                <Select type="number" name="guests" id="guests" placeholder="Guests" required>
+                    <option value="0">0 Guests</option>
+                    <option value="1">1 Guest</option>
+                    <option value="2">2 Guests</option>
+                    <option value="3">3 Guests</option>
+                    <option value="4">4 Guests</option>
+                    <option value="5">5 Guests</option>
+                    <option value="6">6 Guests</option>
+            
+                </Select>
+                <br>
+                <input type="submit" value="Search" name="booking" id="book-search">
+            </form>
+        </div>
+
+</div>
+
+<div class="promotional-box">
+    <p>
+        <h1>First Booking  15% Off</h1>
+    </p>
+</div>
+
+<div class="home-info-section">
+    <div class="info-section">
+        <p>.</p>
+    </div>
+   
+</div>
+

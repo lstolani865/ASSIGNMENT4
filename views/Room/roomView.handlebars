@@ -1,0 +1,20 @@
+<section class="tasks-container">
+     {{#each roomsList}} 
+     <div>
+        <h2>{{this.title}}</h2> &nbsp;&nbsp;
+        {{this.description}}
+        {{this.location}}
+        {{this.price}}
+        {{this.roomImage}}
+        <img src="/images/Uploads/{{this.roomImage}}" alt="picture" height="50" width="50">
+        <a href="/room/edit/{{this._id}}">Edit</a>&nbsp;&nbsp;
+    </div>
+    {{else}}
+        Empty rooms!!!
+     {{/each}}
+</section>
+
+<div id="tasks-links-holder">
+    <a href="/room/add">Room adding</a>
+</div>
+

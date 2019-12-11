@@ -1,0 +1,37 @@
+
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+<select>
+    {{#each roomsList}}
+    <option value={{this.location>{{this.lcation}}</option>
+    {{/each}}
+</select>
+
+<div id="registration-container">
+    
+        <div class="rooms-container">
+        <h2 class="place">This are different places where the visitor can stay</h2>
+        
+            
+
+<div class="rooms-grid">
+    {{#each roomsList}}
+    <a class="room-link" href="">
+                <div class="room">
+                    <div class="box-img">
+                        <img class="room-img" src="/images/{{newRoom.img}}" alt="Test">
+                    </div>
+                    <h2 class="room-title">{{this.title}}</h2>
+                    <h2 class="room-title">{{this.description}}</h2>
+                    <h2 class="room-price">{{this.location}}</h2>
+                    <h2 class="room-title">{{this.price}}/Night: $</h2>
+                    <img class="room-title" src="/uploads/{{this.roomImage}}">
+                    <input type="submit" value="Book Room" class="search" id="search"> 
+                </div>
+                {{else}}
+                Empty Rooms
+            </a>
+            {{/each}}
+</div>
+
+

@@ -1,0 +1,33 @@
+<div class="logIn-container">
+         <div class="form-box">
+
+            {{#each message}}
+            <div class="errors">{{this}}</div>
+            {{/each}}
+
+             <form id="signIn-form" action="/user/logIn" method="POST">
+               <h1>Sign in with <a href="https://www.facebook.com/airbnb">    Facebook     </a>   or     <a href="http://www.Google.com">     Google</a></h1
+               <h4>------------------------------------------------------------------------------------------</h4>
+                <br><br>
+                <lable for="Username"><b>Email</lable></b>
+                </lable>
+                <input type="text" id="email" name="email" placeholder="Enter Email"
+                </input><br><br>
+
+                <lable for="Password"><b>Password</lable></b>
+                </lable>
+                <input type="password" id="password" name="password" placeholder="Enter Password"
+                </input><BR><BR>
+
+                <label>
+                <input type="checkbox" name="remember"> Remember me
+                </label><BR><BR>
+
+                 <button type="submit">Log in</button>
+
+                <span class="psw">Forgot <a href="#">password?</a></span> 
+ 
+                 <br><br><br>
+             </form>
+             </div>
+             </div>

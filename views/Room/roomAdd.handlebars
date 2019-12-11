@@ -1,0 +1,25 @@
+{{#each errors}}
+    <div class="error">{{this}}</div>
+{{/each}}
+
+    <h2>Create New Room</h2>
+    
+    <form method="POST" action="/room/add" enctype="multipart/form-data">
+
+        <label>Title</label>
+        <input type="text" name="title" id="title"> <br><br>
+
+        <label>Price</label><br>
+        <input type="number" name="price" id="price"> <br><br>
+
+        <label>Description</label>
+        <input type="text" name="description" id="description"> <br><br>
+        
+        <label>Location</label>
+        <input type="text" name="location" id="location"> <br><br>
+
+        <input type="file" name="roomImage">
+
+        <input type="submit" value="Add Room">
+        <br>  <br>  <br>  <br>  <br>  <br> <br>
+    </form>
